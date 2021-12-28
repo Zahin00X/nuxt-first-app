@@ -1,12 +1,14 @@
 <template>
   <section class="container">
-    <nuxt-link to="/users">Users</nuxt-link>
-    <nuxt-link to="/products">products</nuxt-link>
+    
+    <h1>Welcome to the home page</h1>
   </section>
 </template>
 
 <script>
+
 export default {
   name: 'IndexPage',
+  
 }
 </script>

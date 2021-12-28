@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 export default {
   layout: 'usersLayout',
   data() {
@@ -14,7 +15,6 @@ export default {
       userId: '',
     }
   },
-
   methods: {
     onLoadUser() {
       this.$router.push('/users/' + this.userId)
